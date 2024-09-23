@@ -44,13 +44,41 @@ https://web.archive.org/
 
 # Webserver Fingerprinting:
 ## Netcat:
-sudo nc example.com 80
+sudo nc saveetha.ac.in 443
 GET / HTTP/1.1
-Host: example.com
 
 ### output
-![Screenshot 2024-09-20 143155](https://github.com/user-attachments/assets/104e15ff-324b-4808-9b69-de52c68f1c7c)
+![image](https://github.com/user-attachments/assets/f1e48ebe-7899-4a2e-bb7b-ad6d20e5b1f6)
 
+## nmap:
+### output
+![image](https://github.com/user-attachments/assets/ddc82c31-bd79-455e-ada2-31032bb29b04)
+
+## Whatweb
+### output
+![image](https://github.com/user-attachments/assets/cf31b800-66b3-41c6-b405-5c72df579065)
+
+![image](https://github.com/user-attachments/assets/4c6cb597-139d-49e2-a59f-8af95af884e2)
+## httprint
+### output
+![image](https://github.com/user-attachments/assets/9f1c87e1-9360-4a8a-9360-b6083173989e)
+
+# Tracing the Location
+### TCP Traceroute:
+sudo traceroute -T www.google.com
+## output
+![image](https://github.com/user-attachments/assets/ef89ebb5-f2c4-4f29-b11b-197fa77ae7df)
+
+### UDP Traceroute:
+sudo traceroute -U www.google.com
+## output
+![image](https://github.com/user-attachments/assets/b3cd3908-9f52-4e46-ba35-90f54756052d)
+
+
+### ICMP Traceroute:
+sudo traceroute  www.google.com
+## output
+![image](https://github.com/user-attachments/assets/70a66535-6b0a-4a7d-a0d0-966a72f9f782)
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
