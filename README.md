@@ -49,6 +49,7 @@ GET / HTTP/1.1
 Host: example.com
 
 ### output
+![Screenshot 2024-09-20 143155](https://github.com/user-attachments/assets/104e15ff-324b-4808-9b69-de52c68f1c7c)
 
 
 ## RESULT:
